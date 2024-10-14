@@ -43,4 +43,14 @@ public class FizzbuzzTest {
 
         assertTrue(result);
     }
+
+    @Test
+    public void testIsNotDivisibleByFive() {
+
+        int num = 31;
+        
+        boolean result = fizzbuzz.isDivisibleByFive(num);
+
+        assertFalse(result);
+    }
 }
