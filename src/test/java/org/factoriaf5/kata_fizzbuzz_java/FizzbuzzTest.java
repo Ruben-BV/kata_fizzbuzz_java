@@ -24,4 +24,13 @@ public class FizzbuzzTest {
         assertTrue(result);
     }
 
+    @Test
+    public void testIsNotDivisibleByThree() {
+
+        int num = 31;
+        
+        boolean result = fizzbuzz.isDivisibleByThree(num);
+
+        assertFalse(result);
+    }
 }
